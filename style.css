@@ -1,0 +1,59 @@
+*{padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    font-size: 2.5rem;
+    
+}
+
+.header h2{
+    font-weight: 200;
+}
+
+  #cities-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap:1rem;
+  }
+
+  .city-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 300px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .city-info{
+    line-height: 1.6em;
+    margin-top: 0.5rem;
+  }
